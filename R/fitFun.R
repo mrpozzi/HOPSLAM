@@ -227,7 +227,7 @@
 
 
 predictHop <- function(M,X,d,...){
-	unlist(apply(X,1,function(x)which.min(distancevector(X=M,y=as.vector(x), d=d,na.rm=TRUE))))
+	unlist(apply(X,1,function(x)which.min(distancevector(X=t(M),y=as.vector(x), d=d,na.rm=TRUE))))
 	}
 
 
