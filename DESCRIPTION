@@ -1,0 +1,12 @@
+Package: HOPSLAM
+Type: Package
+Title: HOpach-Pam Supervised Learning AlgorithM
+Version: 0.1
+Depends: methods, RColorBrewer, hopach
+Date: 2011-06-20
+Author: Luca Pozzi
+Maintainer: Luca Pozzi <p.luc@stat.berkeley.edu>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyLoad: yes
+Packaged: 2014-03-27 16:57:57 UTC; drp
